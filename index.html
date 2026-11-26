@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>婚礼倒计时</title>
+<title>开席倒计时</title>
 <style>
 *{
   margin:0;
@@ -42,7 +42,7 @@ body::before{
   max-width:1180px;
   min-height:80vh;
   padding:50px 40px;
-  border:2px solid rgba(255,210,120,0.65);
+  border:2px solid rgba(243,243,239,0.75);
   border-radius:20px;
   box-shadow:0 0 40px rgba(0,0,0,0.25);
   background:linear-gradient(145deg, rgba(255,150,70,0.12), rgba(200,70,20,0.12));
@@ -52,6 +52,7 @@ body::before{
   position:absolute;
   width:160px;
   height:160px;
+  filter:grayscale(1) brightness(1.6);
   background:url("https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/42121100839e44389201003414021110~tplv-a9rns2rl98-image.image") no-repeat center/contain;
   opacity:0.85;
   pointer-events:none;
@@ -64,7 +65,7 @@ body::before{
 .top-double-happiness{
   text-align:center;
   font-size:32px;
-  color:#ffd57a;
+  color:#F3F3EF;
   letter-spacing:10px;
   margin-bottom:10px;
   text-shadow:0 2px 12px rgba(0,0,0,0.25);
@@ -73,7 +74,7 @@ body::before{
   text-align:center;
   font-size:18px;
   letter-spacing:6px;
-  color:#ffe2a8;
+  color:#F3F3EF;
   opacity:.9;
   margin-bottom:16px;
 }
@@ -90,7 +91,7 @@ body::before{
   text-align:center;
   font-size:18px;
   letter-spacing:6px;
-  color:#ffe2a8;
+  color:#F3F3EF;
   margin-bottom:40px;
   opacity:.9;
 }
@@ -103,7 +104,7 @@ body::before{
 .count-item{
   width:120px;
   height:140px;
-  background:linear-gradient(180deg,#ffffff 0%,#f7f1e4 100%);
+  background:linear-gradient(180deg,#ffffff 0%,#F3F3EF 100%);
   border-radius:16px;
   display:flex;
   flex-direction:column;
@@ -116,7 +117,7 @@ body::before{
   content:"";
   position:absolute;
   inset:8px;
-  border:1px solid rgba(255,215,140,0.5);
+  border:1px solid rgba(243,243,239,0.75);
   border-radius:12px;
 }
 .count-num{
@@ -144,7 +145,7 @@ body::before{
 .mid-date{
   text-align:center;
   font-size:18px;
-  color:#ffe2a8;
+  color:#F3F3EF;
   letter-spacing:2px;
   margin-bottom:40px;
   opacity:.85;
@@ -153,13 +154,13 @@ body::before{
   text-align:center;
   font-size:18px;
   letter-spacing:4px;
-  color:#ffe2a8;
+  color:#F3F3EF;
   opacity:.85;
 }
 .footer-xi{
   text-align:center;
   font-size:34px;
-  color:#ffd57a;
+  color:#F3F3EF;
   margin-top:8px;
   letter-spacing:16px;
 }
@@ -188,7 +189,7 @@ body::before{
   position:absolute;
   width:12px;
   height:12px;
-  background:#ffe8b0;
+  background:#F3F3EF;
   clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
   opacity:0.9;
   pointer-events:none;
